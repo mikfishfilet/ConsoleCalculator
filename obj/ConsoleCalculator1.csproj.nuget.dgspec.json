@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator.csproj": {}
+    "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator.csproj": {
+    "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator.csproj",
-        "projectName": "ConsoleCalculator",
-        "projectPath": "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator1.csproj",
+        "projectName": "ConsoleCalculator1",
+        "projectPath": "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\ConsoleCalculator1.csproj",
         "packagesPath": "C:\\Users\\mikae\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mikae\\source\\repos\\ConsoleCalculator\\obj\\",
         "projectStyle": "PackageReference",

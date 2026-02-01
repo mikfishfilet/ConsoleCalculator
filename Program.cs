@@ -6,7 +6,7 @@ namespace ConsoleCalculator
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             // Constants
             const decimal Tax_Rate = 0.055m;
@@ -50,7 +50,7 @@ namespace ConsoleCalculator
                     case "*":
                     case "/":
                     case "avg":
-                        double number1, number2;
+                        double number1 = 0, number2 = 0;
                         bool validInput = false;
 
                         do
@@ -82,7 +82,7 @@ namespace ConsoleCalculator
                             case "*":
                                 lastResult = number1 * number2;
                                 Console.WriteLine($"Result: {lastResult:F3}");
-                                operationCounts["Mutiply"]++;
+                                operationCounts["Multiply"]++;
                                 break;
                             case "/":
                                 if (number2 == 0)
@@ -133,8 +133,53 @@ namespace ConsoleCalculator
                 }
             } while (continueRunning);
 
+            // Summary
+            Console.WriteLine("\n=== Calculator Summary ===");
+            Console.WriteLine($"Total operations: {totalOperations}");
+            foreach (var kvp in operationCounts)
+            {
+                Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+            }
+
+            string last = validLastResult ?
+                (choiceWasTax(lastTaxResult) ? lastTaxResult.ToString("C2") : lastResult.ToString("F3"))
+                : "N/A";
+
+            Console.WriteLine($"Last result was: {last}");
+
             Console.WriteLine("Thank you for using the calculator!");
+        }
+        static double ReadDouble(string prompt)
+        {
+            double number;
+            while (true)
+            {
+                Console.Write(prompt);
+                string input = Console.ReadLine();
+                if (double.TryParse(input, out number))
+                {
+                    return number;
+                }
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+        }
+        static decimal ReadDecimal(string prompt)
+        {
+            decimal number;
+            while (true)
+            {
+                Console.Write(prompt);
+                string input = Console.ReadLine();
+                if (decimal.TryParse(input, out number))
+                {
+                    return number;
+                }
+                Console.WriteLine("Invalid input. Please enter a valid decimal number.");
+            }
+        }
+        static bool choiceWasTax(decimal lastTax)
+        {
+            return lastTax > 0;
         }
     }
 }
-

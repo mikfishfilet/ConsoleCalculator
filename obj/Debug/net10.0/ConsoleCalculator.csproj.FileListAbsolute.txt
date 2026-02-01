@@ -1,0 +1,15 @@
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.AssemblyInfoInputs.cache
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.AssemblyInfo.cs
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.sourcelink.json
+C:\Users\mikae\source\repos\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.exe
+C:\Users\mikae\source\repos\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.deps.json
+C:\Users\mikae\source\repos\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.runtimeconfig.json
+C:\Users\mikae\source\repos\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.dll
+C:\Users\mikae\source\repos\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.pdb
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.dll
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\refint\ConsoleCalculator.dll
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.pdb
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.genruntimeconfig.cache
+C:\Users\mikae\source\repos\ConsoleCalculator\obj\Debug\net10.0\ref\ConsoleCalculator.dll

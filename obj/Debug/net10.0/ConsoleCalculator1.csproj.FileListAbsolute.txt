@@ -1,0 +1,4 @@
+C:\Users\mikae\Desktop\C#\Projects\Console Calculator\ConsoleCalculator1\obj\Debug\net10.0\ConsoleCalculator1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikae\Desktop\C#\Projects\Console Calculator\ConsoleCalculator1\obj\Debug\net10.0\ConsoleCalculator1.AssemblyInfoInputs.cache
+C:\Users\mikae\Desktop\C#\Projects\Console Calculator\ConsoleCalculator1\obj\Debug\net10.0\ConsoleCalculator1.AssemblyInfo.cs
+C:\Users\mikae\Desktop\C#\Projects\Console Calculator\ConsoleCalculator1\obj\Debug\net10.0\ConsoleCalculator1.csproj.CoreCompileInputs.cache
